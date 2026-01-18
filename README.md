@@ -6,4 +6,40 @@
 [![GitHub kunalsrp5]](https://github.com/kunalsrp5)
 
 
+WITH profile AS (
+    SELECT
+        'Kunal Sarpe'                 AS name,
+        'Data Engineer'               AS role,
+        [
+          'Python', 
+          'SQL'
+        ]                             AS languages,
+        [
+          'Pentaho Data Integration',
+          'Pentaho Report Designer',
+          'Apache Spark',
+          'Apache Airflow,
+          'Snowflake',
+          'Neon Postgres'
+        ]                             AS tools,
+        [
+          'Batch Pipelines',
+          'Incremental Loads',
+          'DAG-Based Orchestration',
+          'Analytics-Ready Modeling'
+        ]                             AS architecture,
+        [
+          'Banking & Risk Analytics',
+          'Regulatory Reporting',
+          'Early Warning Signals'
+        ]                             AS domains,
+        {
+           flagship_project : 'Earcandy – Music Streaming Analytics Platform',
+           learning_focus   : 'pandas, numpy, Advanced SQL, pipeline design, system design, data structures and algorithms'
+        }  
+           'Turning raw data into 
+            decision-ready insights'  AS mission
+)
 
+SELECT *
+FROM profile;
